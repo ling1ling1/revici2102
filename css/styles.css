@@ -1,0 +1,72 @@
+html { overflow: scroll; }
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    font: 11px Tahoma; color: #000000;
+    background:#EAEDF6;
+    background-image: URL(../images/bg_list.png) !important;
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+}
+table { border-collapse: collapse; padding: 0px;}
+table.in { border-collapse: collapse; padding: 0px; }
+
+tr.zebra_1 {background: #FFFFFF;}
+tr.zebra_2 {background: #F7F8FB;}
+
+td {line-height: 1.5; font: 12px Tahoma;  color: #000000; border: none;}
+td.bold_text { line-height: 1.5;font-size:12pt; text-align: justify; font-weight: bold;}
+
+td.mid_bold_text { line-height: 1.5;font-size:10pt;  font-weight: bold;}
+td.midi_bold_text { line-height: 1.5;font-size:8pt;  font-weight: bold;}
+
+td.mini_text { line-height: 1.5;font-size:7pt; color: #808080;  text-align: right; }
+td.mini_text_red { line-height: 1.5;font-size:7pt; color: #FF0080;  text-align: right; font-weight: bold;}
+
+td.blok { border-collapse: collapse; padding: 0px; background:#FFFFFF;}
+
+ul {line-height: 1.5;}
+li {line-height: 1.5;}
+
+p{ font: 12px Tahoma; line-height: 1.5; color: #000000;}
+
+a {text-decoration: none; color: #4D7CCF}
+a:hover {text-decoration: underline; }
+
+a.ahtung {text-decoration: none; color: [type_link_n]}
+a.ahtung:hover {text-decoration: underline; }
+
+a.answer {text-decoration: none; color: #999999}
+a.answer:hover {text-decoration: underline; }
+
+
+h1 {font-size: 20pt; line-height: 1.5; font-weight: bold; color: #A3B5EA;}
+h2 {font-size: 14px; line-height: 1.5; font-weight: bold; color: #00468C;}
+h3 {font-size: 13px; line-height: 1.5;font-weight: bold;}
+h4 {font-size: 12px; line-height: 1.5;font-weight: bold;}
+h5 {font-size: 11px; line-height: 1.5;font-weight: bold;}
+h6 {font-size: 10px; line-height: 1.5;font-weight: bold;}
+
+hr {color: #BCC5D7; background-color: #BCC5D7; border:0px none; height:1px; clear:both; }
+
+hr.dot { border-style: dotted; }
+
+span.red_alert {font-size: 12px; line-height: 1.5;font-weight: bold; color: #FF0080;}
+span.remarc {font-size: 12px; line-height: 1.5;font-weight: bold; color: #000000}
+span.find {font-size: 12px; line-height: 1.5;font-weight: bold; color: #8080FF;}
+span.tooltip {color: #445566; font-weight: bold; color: #408080; border-bottom: 1px dashed blue}
+
+div.header_page {font-size: 12px;line-height: 1.5; font-weight: bold; }
+div.page_nav {border: 1px solid blue;}
+div.red_alert {font-size: 12px;line-height: 1.5; font-weight: bold; color: #FF0080;}
+div.sel_art {
+    line-height: 1.5;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #DDDEDD;
+    margin-bottom: 4px;
+}
+
+
+
